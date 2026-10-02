@@ -31,13 +31,13 @@
             this.label_question1 = new System.Windows.Forms.Label();
             this.text_box1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.btnA = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.btnB = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.btnC = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -45,7 +45,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.btnD = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -79,27 +79,25 @@
             this.text_box1.Size = new System.Drawing.Size(766, 138);
             this.text_box1.TabIndex = 4;
             this.text_box1.Text = "Trabalho em grupo na escola!\r\n Qual papel você assume naturalmente?";
-            this.text_box1.TextChanged += new System.EventHandler(this.text_box_TextChanged);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Controls.Add(this.radioButton1);
+            this.panel1.Controls.Add(this.btnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(546, 188);
             this.panel1.TabIndex = 5;
             // 
-            // radioButton1
+            // btnA
             // 
-            this.radioButton1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton1.Location = new System.Drawing.Point(45, 76);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(57, 42);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.btnA.Location = new System.Drawing.Point(60, 60);
+            this.btnA.Name = "btnA";
+            this.btnA.Size = new System.Drawing.Size(47, 47);
+            this.btnA.TabIndex = 3;
+            this.btnA.UseVisualStyleBackColor = true;
+            this.btnA.Click += new System.EventHandler(this.btnA_Click);
             // 
             // textBox1
             // 
@@ -117,22 +115,21 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel2.Controls.Add(this.radioButton2);
+            this.panel2.Controls.Add(this.btnB);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(546, 188);
             this.panel2.TabIndex = 6;
             // 
-            // radioButton2
+            // btnB
             // 
-            this.radioButton2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton2.Location = new System.Drawing.Point(45, 76);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(57, 42);
-            this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.btnB.Location = new System.Drawing.Point(73, 60);
+            this.btnB.Name = "btnB";
+            this.btnB.Size = new System.Drawing.Size(47, 47);
+            this.btnB.TabIndex = 4;
+            this.btnB.UseVisualStyleBackColor = true;
+            this.btnB.Click += new System.EventHandler(this.btnB_Click);
             // 
             // textBox3
             // 
@@ -150,7 +147,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel3.Controls.Add(this.radioButton3);
+            this.panel3.Controls.Add(this.btnC);
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Location = new System.Drawing.Point(88, 500);
@@ -158,15 +155,14 @@
             this.panel3.Size = new System.Drawing.Size(546, 188);
             this.panel3.TabIndex = 7;
             // 
-            // radioButton3
+            // btnC
             // 
-            this.radioButton3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton3.Location = new System.Drawing.Point(45, 63);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(57, 42);
-            this.radioButton3.TabIndex = 11;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.btnC.Location = new System.Drawing.Point(60, 52);
+            this.btnC.Name = "btnC";
+            this.btnC.Size = new System.Drawing.Size(47, 47);
+            this.btnC.TabIndex = 9;
+            this.btnC.UseVisualStyleBackColor = true;
+            this.btnC.Click += new System.EventHandler(this.btnC_Click);
             // 
             // textBox2
             // 
@@ -239,22 +235,21 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel5.Controls.Add(this.radioButton5);
+            this.panel5.Controls.Add(this.btnD);
             this.panel5.Controls.Add(this.textBox5);
             this.panel5.Location = new System.Drawing.Point(697, 500);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(546, 188);
             this.panel5.TabIndex = 11;
             // 
-            // radioButton5
+            // btnD
             // 
-            this.radioButton5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.radioButton5.Location = new System.Drawing.Point(45, 63);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(57, 42);
-            this.radioButton5.TabIndex = 12;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.btnD.Location = new System.Drawing.Point(73, 52);
+            this.btnD.Name = "btnD";
+            this.btnD.Size = new System.Drawing.Size(47, 47);
+            this.btnD.TabIndex = 10;
+            this.btnD.UseVisualStyleBackColor = true;
+            this.btnD.Click += new System.EventHandler(this.btnD_Click);
             // 
             // textBox5
             // 
@@ -267,7 +262,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(376, 88);
             this.textBox5.TabIndex = 2;
-            this.textBox5.Text = "D) Pego as partes mais difíceis e quebro \r\nem pequenos passos até resolver.\r\n";
+            this.textBox5.Text = "D) Cuido da apresentação para ficar clara, bonita e fácil de entender.\r\n\r\n";
             // 
             // Form2
             // 
@@ -285,7 +280,6 @@
             this.Controls.Add(this.text_box1);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -317,12 +311,12 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button btnA;
+        private System.Windows.Forms.Button btnB;
+        private System.Windows.Forms.Button btnC;
+        private System.Windows.Forms.Button btnD;
     }
 }

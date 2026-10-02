@@ -12,14 +12,54 @@ namespace quizz_sua_area_de_ti
 {
     public partial class Form3 : Form
     {
+        private char? respostaSelecionada = null;
+        private Button botaoSelecionado = null;
         public Form3()
         {
             InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+            StartPosition = FormStartPosition.CenterScreen;
+            AutoScaleMode = AutoScaleMode.Dpi;
         }
+        private void SelecionarResposta(Button botao,char resposta)
+        {
+            if (botaoSelecionado != null)
+            {
+                botaoSelecionado.BackColor =
+                    ColorTranslator.FromHtml("#1B284E");
+            }
 
+            botaoSelecionado = botao;
+            respostaSelecionada = resposta;
+
+            botaoSelecionado.BackColor =
+                ColorTranslator.FromHtml("#5C4DF6");
+        }
         private void label_question1_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void btnA_Click(object sender, EventArgs e)
+        {
+                SelecionarResposta(DoisbtnA, 'A');
+        }
+
+        private void btnB_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(DoisbtnB, 'B');
+        }
+
+        private void btnC_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(DoisbtnC, 'C');
+        }
+
+        private void btnD_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(DoisbtnD, 'D');
+        }
     }
 }
+
+

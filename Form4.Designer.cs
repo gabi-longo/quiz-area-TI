@@ -40,6 +40,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.TresbtnB = new System.Windows.Forms.Button();
+            this.TresbtnA = new System.Windows.Forms.Button();
+            this.TresbtnC = new System.Windows.Forms.Button();
+            this.TresbtnD = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -75,6 +79,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.panel4.Controls.Add(this.TresbtnD);
             this.panel4.Controls.Add(this.textBox3);
             this.panel4.Location = new System.Drawing.Point(697, 500);
             this.panel4.Name = "panel4";
@@ -87,7 +92,7 @@
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(190, 36);
+            this.textBox3.Location = new System.Drawing.Point(126, 60);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(287, 87);
@@ -97,6 +102,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.panel3.Controls.Add(this.TresbtnC);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Location = new System.Drawing.Point(88, 500);
             this.panel3.Name = "panel3";
@@ -109,7 +115,7 @@
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(195, 46);
+            this.textBox4.Location = new System.Drawing.Point(126, 44);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(287, 87);
@@ -120,6 +126,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.panel2.Controls.Add(this.TresbtnB);
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
@@ -132,7 +139,7 @@
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(190, 39);
+            this.textBox2.Location = new System.Drawing.Point(126, 60);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(287, 87);
@@ -142,6 +149,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.panel1.Controls.Add(this.TresbtnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
@@ -154,7 +162,7 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(195, 39);
+            this.textBox1.Location = new System.Drawing.Point(126, 60);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(287, 87);
@@ -181,6 +189,38 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            // 
+            // TresbtnB
+            // 
+            this.TresbtnB.Location = new System.Drawing.Point(59, 70);
+            this.TresbtnB.Name = "TresbtnB";
+            this.TresbtnB.Size = new System.Drawing.Size(47, 47);
+            this.TresbtnB.TabIndex = 19;
+            this.TresbtnB.UseVisualStyleBackColor = true;
+            // 
+            // TresbtnA
+            // 
+            this.TresbtnA.Location = new System.Drawing.Point(60, 70);
+            this.TresbtnA.Name = "TresbtnA";
+            this.TresbtnA.Size = new System.Drawing.Size(47, 47);
+            this.TresbtnA.TabIndex = 20;
+            this.TresbtnA.UseVisualStyleBackColor = true;
+            // 
+            // TresbtnC
+            // 
+            this.TresbtnC.Location = new System.Drawing.Point(60, 60);
+            this.TresbtnC.Name = "TresbtnC";
+            this.TresbtnC.Size = new System.Drawing.Size(47, 47);
+            this.TresbtnC.TabIndex = 21;
+            this.TresbtnC.UseVisualStyleBackColor = true;
+            // 
+            // TresbtnD
+            // 
+            this.TresbtnD.Location = new System.Drawing.Point(59, 60);
+            this.TresbtnD.Name = "TresbtnD";
+            this.TresbtnD.Size = new System.Drawing.Size(47, 47);
+            this.TresbtnD.TabIndex = 22;
+            this.TresbtnD.UseVisualStyleBackColor = true;
             // 
             // Form4
             // 
@@ -228,5 +268,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button TresbtnD;
+        private System.Windows.Forms.Button TresbtnC;
+        private System.Windows.Forms.Button TresbtnB;
+        private System.Windows.Forms.Button TresbtnA;
     }
 }
