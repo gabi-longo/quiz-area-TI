@@ -22,9 +22,27 @@ namespace quizz_sua_area_de_ti
             AutoScaleMode = AutoScaleMode.Dpi;
         }
 
+        private void SelecionarResposta(Button botao, char resposta)
+        {
+            // Volta o botão anterior para a cor normal
+            if (botaoSelecionado != null)
+            {
+                botaoSelecionado.BackColor =
+                    ColorTranslator.FromHtml("#1B284E");
+            }
+
+            // Guarda qual alternativa foi escolhida
+            botaoSelecionado = botao;
+            respostaSelecionada = resposta;
+
+            // Deixa a alternativa selecionada roxa
+            botaoSelecionado.BackColor =
+                ColorTranslator.FromHtml("#5C4DF6");
+        }
+
         private void CincobtnA_Click(object sender, EventArgs e)
         {
-
+            SelecionarResposta(CincobtnA, 'A');
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -47,6 +65,21 @@ namespace quizz_sua_area_de_ti
             Form6 proxima = new Form6();
             proxima.Show();
             this.Hide();
+        }
+
+        private void CincobtnB_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(CincobtnB, 'B');
+        }
+
+        private void CincobtnC_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(CincobtnC, 'C');
+        }
+
+        private void CincobtnD_Click(object sender, EventArgs e)
+        {
+            SelecionarResposta(CincobtnD, 'D');
         }
     }
 }
