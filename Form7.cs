@@ -42,7 +42,7 @@ namespace quizz_sua_area_de_ti
 
         private void Form7_Load(object sender, EventArgs e)
         {
-
+            SetebtnC.Focus();
         }
 
         private void SetebtnA_Click(object sender, EventArgs e)

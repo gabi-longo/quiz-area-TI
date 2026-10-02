@@ -42,23 +42,26 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnD = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label_question1
             // 
             this.label_question1.AutoSize = true;
+            this.label_question1.BackColor = System.Drawing.Color.Transparent;
             this.label_question1.Font = new System.Drawing.Font("Bauhaus 93", 40F);
             this.label_question1.ForeColor = System.Drawing.Color.DarkViolet;
             this.label_question1.Location = new System.Drawing.Point(948, 155);
@@ -80,6 +83,7 @@
             this.text_box1.ReadOnly = true;
             this.text_box1.Size = new System.Drawing.Size(766, 138);
             this.text_box1.TabIndex = 4;
+            this.text_box1.TabStop = false;
             this.text_box1.Text = "Trabalho em grupo na escola!\r\n Qual papel você assume naturalmente?";
             // 
             // panel1
@@ -110,8 +114,10 @@
             this.textBox1.Location = new System.Drawing.Point(126, 60);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(357, 68);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TabStop = false;
             this.textBox1.Text = "A) Coordeno o time, motivo o pessoal e cuido para ninguém ficar perdido.\r\n";
             // 
             // panel2
@@ -142,6 +148,7 @@
             this.textBox3.Location = new System.Drawing.Point(126, 60);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(376, 88);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "B) Pego as partes mais difíceis e quebro \r\nem pequenos passos até resolver.\r\n";
@@ -175,6 +182,7 @@
             this.textBox2.Location = new System.Drawing.Point(126, 44);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(376, 88);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "C) Reviso tudo atrás de erros, furos e pontos que podem dar problema.";
@@ -212,28 +220,6 @@
             this.textBox4.TabIndex = 3;
             this.textBox4.Text = "D) Cuido da apresentação para ficar clara, bonita e fácil de entender. \r\n";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::quizz_sua_area_de_ti.Properties.Resources.Botão_Neon_com_Seta_Azul;
-            this.pictureBox1.Location = new System.Drawing.Point(1256, 641);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(82, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::quizz_sua_area_de_ti.Properties.Resources.Imagem_do_ChatGPT_1_de_out__de_2026__01_42_12_1;
-            this.pictureBox2.Location = new System.Drawing.Point(807, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(531, 194);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
@@ -262,9 +248,45 @@
             this.textBox5.Location = new System.Drawing.Point(126, 60);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
+            this.textBox5.ReadOnly = true;
             this.textBox5.Size = new System.Drawing.Size(376, 88);
             this.textBox5.TabIndex = 2;
             this.textBox5.Text = "D) Cuido da apresentação para ficar clara, bonita e fácil de entender.\r\n\r\n";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::quizz_sua_area_de_ti.Properties.Resources._26_livros_capelo;
+            this.pictureBox3.Location = new System.Drawing.Point(718, 12);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(294, 223);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::quizz_sua_area_de_ti.Properties.Resources.Imagem_do_ChatGPT_1_de_out__de_2026__01_42_12_1;
+            this.pictureBox2.Location = new System.Drawing.Point(807, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(531, 194);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::quizz_sua_area_de_ti.Properties.Resources.Botão_Neon_com_Seta_Azul;
+            this.pictureBox1.Location = new System.Drawing.Point(1256, 641);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(82, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form2
             // 
@@ -272,6 +294,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.text_box1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label_question1);
             this.Controls.Add(this.pictureBox2);
@@ -279,9 +302,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.text_box1);
+            this.Controls.Add(this.pictureBox3);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -290,10 +314,11 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -320,5 +345,6 @@
         private System.Windows.Forms.Button btnB;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnD;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

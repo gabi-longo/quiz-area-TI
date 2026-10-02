@@ -21,6 +21,8 @@ namespace quizz_sua_area_de_ti
             WindowState = FormWindowState.Maximized;
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
+
+            QuatrobtnC.Focus();
         }
 
         private void SelecionarResposta(Button botao,char resposta)
