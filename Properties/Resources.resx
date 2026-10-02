@@ -118,35 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="16_icone_banco_dados" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16_icone_banco_dados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="27_notebook_codigo_inferior" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\27_notebook_codigo_inferior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BARRA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARRA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Botão Neon com Seta Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Botão Neon com Seta Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BARRA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARRA3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14_personagem_pensativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14_personagem_pensativo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="24_botao_proxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24_botao_proxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Imagem do ChatGPT 1 de out. de 2026, 01_42_15-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagem do ChatGPT 1 de out. de 2026, 01_42_15-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="24_botao_proxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\24_botao_proxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="26_livros_capelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26_livros_capelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARRA3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARRA3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="20_icone_analytics" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20_icone_analytics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="32_foguete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\32_foguete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="04_banco_dados_grafico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04_banco_dados_grafico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Adesivos 3D de tecnologia e quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adesivos 3D de tecnologia e quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,37 +142,73 @@
   <data name="12_lampada_direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\12_lampada_direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="18_icone_design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\18_icone_design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="16_icone_banco_dados" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16_icone_banco_dados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BARRA6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARRA6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="31_alvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31_alvo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BARRA4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARRA4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="03_UXUI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\03_UXUI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="15_icone_codigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\15_icone_codigo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="10_personagem_menina_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\10_personagem_menina_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="23_barra_progresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23_barra_progresso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="17_icone_seguranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\17_icone_seguranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="34_desenvolvimento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34_desenvolvimento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14_personagem_pensativo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14_personagem_pensativo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BARRA5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BARRA5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="26_livros_capelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\26_livros_capelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="09_infra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09_infra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="23_barra_progresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\23_barra_progresso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="BARRA4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARRA4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18_icone_design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18_icone_design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10_personagem_menina_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10_personagem_menina_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Botão Neon com Seta Azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Botão Neon com Seta Azul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARRA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARRA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34_desenvolvimento1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34_desenvolvimento1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34_desenvolvimento2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34_desenvolvimento2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="06_escudo_cadeado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\06_escudo_cadeado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17_icone_seguranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17_icone_seguranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARRA6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARRA6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32_foguete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32_foguete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Imagem do ChatGPT 1 de out. de 2026, 01_42_12-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagem do ChatGPT 1 de out. de 2026, 01_42_12-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="31_alvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\31_alvo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="27_notebook_codigo_inferior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27_notebook_codigo_inferior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="07_gestao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07_gestao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -213,5 +213,29 @@
   <ItemGroup>
     <None Include="Resources\31_alvo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04_banco_dados_grafico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06_escudo_cadeado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34_desenvolvimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03_UXUI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34_desenvolvimento1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34_desenvolvimento2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09_infra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07_gestao.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

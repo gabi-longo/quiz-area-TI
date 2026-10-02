@@ -19,8 +19,34 @@ namespace quizz_sua_area_de_ti
             WindowState = FormWindowState.Maximized;
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
-        }
 
+        }
+        private Image ObterIcone(AreaTI area)
+        {
+            switch (area)
+            {
+                case AreaTI.Desenvolvimento:
+                    return Properties.Resources._34_desenvolvimento2;
+
+                case AreaTI.DadosIA:
+                    return Properties.Resources._04_banco_dados_grafico;
+
+                case AreaTI.Ciberseguranca:
+                    return Properties.Resources._06_escudo_cadeado;
+
+                case AreaTI.UXUI:
+                    return Properties.Resources._03_UXUI;
+
+                case AreaTI.Infraestrutura:
+                    return Properties.Resources._09_infra;
+
+                case AreaTI.GestaoTI:
+                    return Properties.Resources._07_gestao;
+
+                default:
+                    return null;
+            }
+        }
         private void Form8_Load(object sender, EventArgs e)
         {
             var ranking = Quiz.ObterRanking();
@@ -29,6 +55,8 @@ namespace quizz_sua_area_de_ti
 
             lblPrincipal.Text = "Seu perfil principal é: " + Quiz.NomeArea(primeiro.Key);
             lblSegundo.Text = "Seu segundo perfil é: " + Quiz.NomeArea(segundo.Key);
+            picPrimeiro.Image = ObterIcone(primeiro.Key);
+            picSegundo.Image = ObterIcone(segundo.Key);
         }
 
         private void btn_reiniciar_Click(object sender, EventArgs e)

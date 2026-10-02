@@ -63,6 +63,56 @@ namespace quizz_sua_area_de_ti.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _03_UXUI {
+            get {
+                object obj = ResourceManager.GetObject("03_UXUI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _04_banco_dados_grafico {
+            get {
+                object obj = ResourceManager.GetObject("04_banco_dados_grafico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _06_escudo_cadeado {
+            get {
+                object obj = ResourceManager.GetObject("06_escudo_cadeado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _07_gestao {
+            get {
+                object obj = ResourceManager.GetObject("07_gestao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _09_infra {
+            get {
+                object obj = ResourceManager.GetObject("09_infra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _10_personagem_menina_tablet {
             get {
                 object obj = ResourceManager.GetObject("10_personagem_menina_tablet", resourceCulture);
@@ -196,6 +246,36 @@ namespace quizz_sua_area_de_ti.Properties {
         internal static System.Drawing.Bitmap _32_foguete {
             get {
                 object obj = ResourceManager.GetObject("32_foguete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _34_desenvolvimento {
+            get {
+                object obj = ResourceManager.GetObject("34_desenvolvimento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _34_desenvolvimento1 {
+            get {
+                object obj = ResourceManager.GetObject("34_desenvolvimento1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _34_desenvolvimento2 {
+            get {
+                object obj = ResourceManager.GetObject("34_desenvolvimento2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
