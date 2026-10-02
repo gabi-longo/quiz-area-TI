@@ -45,7 +45,7 @@
             this.label_question5.AutoSize = true;
             this.label_question5.Font = new System.Drawing.Font("Bauhaus 93", 40F);
             this.label_question5.ForeColor = System.Drawing.Color.DarkViolet;
-            this.label_question5.Location = new System.Drawing.Point(821, 105);
+            this.label_question5.Location = new System.Drawing.Point(948, 155);
             this.label_question5.Name = "label_question5";
             this.label_question5.Size = new System.Drawing.Size(272, 62);
             this.label_question5.TabIndex = 5;
@@ -57,51 +57,51 @@
             this.text_box5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.text_box5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 30F, System.Drawing.FontStyle.Bold);
             this.text_box5.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.text_box5.Location = new System.Drawing.Point(49, 72);
+            this.text_box5.Location = new System.Drawing.Point(23, 45);
             this.text_box5.Multiline = true;
             this.text_box5.Name = "text_box5";
-            this.text_box5.Size = new System.Drawing.Size(926, 121);
+            this.text_box5.Size = new System.Drawing.Size(766, 138);
             this.text_box5.TabIndex = 6;
             this.text_box5.Text = "Daqui a 10 anos, qual conquista \r\ndeixaria você mais orgulhoso(a)?";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel4.Location = new System.Drawing.Point(624, 416);
+            this.panel4.Location = new System.Drawing.Point(697, 500);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(517, 158);
+            this.panel4.Size = new System.Drawing.Size(546, 188);
             this.panel4.TabIndex = 12;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel3.Location = new System.Drawing.Point(49, 416);
+            this.panel3.Location = new System.Drawing.Point(88, 500);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(517, 158);
+            this.panel3.Size = new System.Drawing.Size(546, 188);
             this.panel3.TabIndex = 11;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel2.Location = new System.Drawing.Point(624, 219);
+            this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(517, 158);
+            this.panel2.Size = new System.Drawing.Size(546, 188);
             this.panel2.TabIndex = 10;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Location = new System.Drawing.Point(49, 219);
+            this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(517, 158);
+            this.panel1.Size = new System.Drawing.Size(546, 188);
             this.panel1.TabIndex = 9;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::quizz_sua_area_de_ti.Properties.Resources.BARRA5;
-            this.pictureBox2.Location = new System.Drawing.Point(782, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(807, 12);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(398, 123);
+            this.pictureBox2.Size = new System.Drawing.Size(531, 194);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 17;
             this.pictureBox2.TabStop = false;
@@ -110,7 +110,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::quizz_sua_area_de_ti.Properties.Resources.Botão_Neon_com_Seta_Azul;
-            this.pictureBox1.Location = new System.Drawing.Point(560, 556);
+            this.pictureBox1.Location = new System.Drawing.Point(1256, 641);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(83, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -122,7 +122,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
-            this.ClientSize = new System.Drawing.Size(1192, 631);
+            this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label_question5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

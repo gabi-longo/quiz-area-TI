@@ -15,6 +15,21 @@ namespace quizz_sua_area_de_ti
         public Form1()
         {
             InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+            StartPosition = FormStartPosition.CenterScreen;
+            AutoScaleMode = AutoScaleMode.Dpi;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_iniciar_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
         }
     }
 }

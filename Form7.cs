@@ -16,5 +16,10 @@ namespace quizz_sua_area_de_ti
         {
             InitializeComponent();
         }
+
+        private void Form7_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -15,6 +15,9 @@ namespace quizz_sua_area_de_ti
         public Form2()
         {
             InitializeComponent();
+            WindowState = FormWindowState.Maximized;
+            StartPosition = FormStartPosition.CenterScreen;
+            AutoScaleMode = AutoScaleMode.Dpi;
         }
 
         private void text_box_TextChanged(object sender, EventArgs e)
@@ -23,6 +26,11 @@ namespace quizz_sua_area_de_ti
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
