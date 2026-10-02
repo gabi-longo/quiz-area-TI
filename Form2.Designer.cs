@@ -45,6 +45,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnD = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
@@ -52,6 +53,7 @@
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -81,7 +83,6 @@
             this.text_box1.ReadOnly = true;
             this.text_box1.Size = new System.Drawing.Size(766, 138);
             this.text_box1.TabIndex = 4;
-            this.text_box1.TabStop = false;
             this.text_box1.Text = "Trabalho em grupo na escola!\r\n Qual papel você assume naturalmente?";
             // 
             // panel1
@@ -251,6 +252,17 @@
             this.textBox5.TabIndex = 2;
             this.textBox5.Text = "D) Cuido da apresentação para ficar clara, bonita e fácil de entender.\r\n\r\n";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::quizz_sua_area_de_ti.Properties.Resources._26_livros_capelo;
+            this.pictureBox3.Location = new System.Drawing.Point(23, 155);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(165, 135);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click_1);
+            // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
@@ -280,6 +292,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.text_box1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label_question1);
@@ -287,7 +301,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
@@ -302,6 +315,7 @@
             this.panel4.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -330,5 +344,6 @@
         private System.Windows.Forms.Button btnB;
         private System.Windows.Forms.Button btnC;
         private System.Windows.Forms.Button btnD;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

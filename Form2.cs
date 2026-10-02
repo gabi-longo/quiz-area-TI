@@ -112,5 +112,10 @@ namespace quizz_sua_area_de_ti
         {
 
         }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

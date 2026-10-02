@@ -49,6 +49,7 @@
             // lblPrincipal
             // 
             this.lblPrincipal.AutoSize = true;
+            this.lblPrincipal.BackColor = System.Drawing.Color.Transparent;
             this.lblPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrincipal.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.lblPrincipal.Location = new System.Drawing.Point(336, 271);
@@ -60,6 +61,7 @@
             // lblSegundo
             // 
             this.lblSegundo.AutoSize = true;
+            this.lblSegundo.BackColor = System.Drawing.Color.Transparent;
             this.lblSegundo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSegundo.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.lblSegundo.Location = new System.Drawing.Point(160, 405);

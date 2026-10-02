@@ -93,5 +93,10 @@ namespace quizz_sua_area_de_ti
         {
             QuatrobtnC.Focus();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

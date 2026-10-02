@@ -237,5 +237,17 @@
   <ItemGroup>
     <None Include="Resources\07_gestao.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questao6.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

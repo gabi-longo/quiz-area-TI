@@ -42,12 +42,14 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.SeisbtnA = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -69,7 +71,7 @@
             this.text_box5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.text_box5.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 30F, System.Drawing.FontStyle.Bold);
             this.text_box5.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.text_box5.Location = new System.Drawing.Point(23, 45);
+            this.text_box5.Location = new System.Drawing.Point(12, 12);
             this.text_box5.Multiline = true;
             this.text_box5.Name = "text_box5";
             this.text_box5.Size = new System.Drawing.Size(766, 138);
@@ -204,6 +206,17 @@
             this.textBox1.TabIndex = 18;
             this.textBox1.Text = "A) Ter criado algo que milhões de pessoas usam.\r\n";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::quizz_sua_area_de_ti.Properties.Resources.questao6;
+            this.pictureBox3.Location = new System.Drawing.Point(577, 130);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(254, 215);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 18;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::quizz_sua_area_de_ti.Properties.Resources.BARRA5;
@@ -233,13 +246,14 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label_question5);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.text_box5);
+            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form6";
             this.Text = "Form6";
@@ -252,6 +266,7 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -277,5 +292,6 @@
         private System.Windows.Forms.Button SeisbtnC;
         private System.Windows.Forms.Button SeisbtnB;
         private System.Windows.Forms.Button SeisbtnA;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

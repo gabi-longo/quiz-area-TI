@@ -85,6 +85,16 @@ namespace quizz_sua_area_de_ti
         {
             DoisbtnB.Focus();
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 
