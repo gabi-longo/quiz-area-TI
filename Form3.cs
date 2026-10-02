@@ -59,6 +59,13 @@ namespace quizz_sua_area_de_ti
         {
             SelecionarResposta(DoisbtnD, 'D');
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Form4 proxima = new Form4();
+            proxima.Show();
+            this.Hide();
+        }
     }
 }
 

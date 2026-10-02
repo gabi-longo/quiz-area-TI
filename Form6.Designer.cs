@@ -40,10 +40,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.btnA = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.SeisbtnB = new System.Windows.Forms.Button();
+            this.SeisbtnD = new System.Windows.Forms.Button();
+            this.SeisbtnA = new System.Windows.Forms.Button();
+            this.SeisbtnC = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -79,7 +79,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel4.Controls.Add(this.button1);
+            this.panel4.Controls.Add(this.SeisbtnD);
             this.panel4.Controls.Add(this.textBox4);
             this.panel4.Location = new System.Drawing.Point(697, 500);
             this.panel4.Name = "panel4";
@@ -89,7 +89,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel3.Controls.Add(this.button3);
+            this.panel3.Controls.Add(this.SeisbtnC);
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Location = new System.Drawing.Point(88, 500);
             this.panel3.Name = "panel3";
@@ -99,7 +99,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel2.Controls.Add(this.btnA);
+            this.panel2.Controls.Add(this.SeisbtnB);
             this.panel2.Controls.Add(this.textBox3);
             this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
@@ -109,7 +109,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.SeisbtnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
@@ -136,6 +136,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox1
             // 
@@ -189,37 +190,41 @@
             this.textBox4.TabIndex = 20;
             this.textBox4.Text = "D) Ter liderado uma equipe que transformou uma ideia em um grande negócio.";
             // 
-            // btnA
+            // SeisbtnB
             // 
-            this.btnA.Location = new System.Drawing.Point(64, 60);
-            this.btnA.Name = "btnA";
-            this.btnA.Size = new System.Drawing.Size(47, 47);
-            this.btnA.TabIndex = 21;
-            this.btnA.UseVisualStyleBackColor = true;
+            this.SeisbtnB.Location = new System.Drawing.Point(64, 60);
+            this.SeisbtnB.Name = "SeisbtnB";
+            this.SeisbtnB.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnB.TabIndex = 21;
+            this.SeisbtnB.UseVisualStyleBackColor = true;
+            this.SeisbtnB.Click += new System.EventHandler(this.SeisbtnB_Click);
             // 
-            // button1
+            // SeisbtnD
             // 
-            this.button1.Location = new System.Drawing.Point(64, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 47);
-            this.button1.TabIndex = 22;
-            this.button1.UseVisualStyleBackColor = true;
+            this.SeisbtnD.Location = new System.Drawing.Point(64, 65);
+            this.SeisbtnD.Name = "SeisbtnD";
+            this.SeisbtnD.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnD.TabIndex = 22;
+            this.SeisbtnD.UseVisualStyleBackColor = true;
+            this.SeisbtnD.Click += new System.EventHandler(this.SeisbtnD_Click);
             // 
-            // button2
+            // SeisbtnA
             // 
-            this.button2.Location = new System.Drawing.Point(56, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 47);
-            this.button2.TabIndex = 23;
-            this.button2.UseVisualStyleBackColor = true;
+            this.SeisbtnA.Location = new System.Drawing.Point(56, 60);
+            this.SeisbtnA.Name = "SeisbtnA";
+            this.SeisbtnA.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnA.TabIndex = 23;
+            this.SeisbtnA.UseVisualStyleBackColor = true;
+            this.SeisbtnA.Click += new System.EventHandler(this.SeisbtnA_Click);
             // 
-            // button3
+            // SeisbtnC
             // 
-            this.button3.Location = new System.Drawing.Point(56, 44);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(47, 47);
-            this.button3.TabIndex = 23;
-            this.button3.UseVisualStyleBackColor = true;
+            this.SeisbtnC.Location = new System.Drawing.Point(56, 44);
+            this.SeisbtnC.Name = "SeisbtnC";
+            this.SeisbtnC.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnC.TabIndex = 23;
+            this.SeisbtnC.UseVisualStyleBackColor = true;
+            this.SeisbtnC.Click += new System.EventHandler(this.SeisbtnC_Click);
             // 
             // Form6
             // 
@@ -266,9 +271,9 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button btnA;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SeisbtnD;
+        private System.Windows.Forms.Button SeisbtnC;
+        private System.Windows.Forms.Button SeisbtnB;
+        private System.Windows.Forms.Button SeisbtnA;
     }
 }

@@ -40,10 +40,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.btnA = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.SetebtnA = new System.Windows.Forms.Button();
+            this.SetebtnB = new System.Windows.Forms.Button();
+            this.SetebtnC = new System.Windows.Forms.Button();
+            this.SetebtnD = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -80,7 +80,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel4.Controls.Add(this.button3);
+            this.panel4.Controls.Add(this.SetebtnD);
             this.panel4.Controls.Add(this.textBox3);
             this.panel4.Location = new System.Drawing.Point(697, 500);
             this.panel4.Name = "panel4";
@@ -90,7 +90,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.SetebtnC);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Location = new System.Drawing.Point(88, 500);
             this.panel3.Name = "panel3";
@@ -100,7 +100,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.SetebtnB);
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
@@ -110,7 +110,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Controls.Add(this.btnA);
+            this.panel1.Controls.Add(this.SetebtnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
@@ -137,6 +137,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox1
             // 
@@ -190,37 +191,41 @@
             this.textBox4.TabIndex = 19;
             this.textBox4.Text = "C) Pesquisar o que está em alta e tentar entender por que todo mundo curte.";
             // 
-            // btnA
+            // SetebtnA
             // 
-            this.btnA.Location = new System.Drawing.Point(56, 60);
-            this.btnA.Name = "btnA";
-            this.btnA.Size = new System.Drawing.Size(47, 47);
-            this.btnA.TabIndex = 19;
-            this.btnA.UseVisualStyleBackColor = true;
+            this.SetebtnA.Location = new System.Drawing.Point(56, 60);
+            this.SetebtnA.Name = "SetebtnA";
+            this.SetebtnA.Size = new System.Drawing.Size(47, 47);
+            this.SetebtnA.TabIndex = 19;
+            this.SetebtnA.UseVisualStyleBackColor = true;
+            this.SetebtnA.Click += new System.EventHandler(this.SetebtnA_Click);
             // 
-            // button1
+            // SetebtnB
             // 
-            this.button1.Location = new System.Drawing.Point(61, 60);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(47, 47);
-            this.button1.TabIndex = 20;
-            this.button1.UseVisualStyleBackColor = true;
+            this.SetebtnB.Location = new System.Drawing.Point(61, 60);
+            this.SetebtnB.Name = "SetebtnB";
+            this.SetebtnB.Size = new System.Drawing.Size(47, 47);
+            this.SetebtnB.TabIndex = 20;
+            this.SetebtnB.UseVisualStyleBackColor = true;
+            this.SetebtnB.Click += new System.EventHandler(this.SetebtnB_Click);
             // 
-            // button2
+            // SetebtnC
             // 
-            this.button2.Location = new System.Drawing.Point(56, 52);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 47);
-            this.button2.TabIndex = 21;
-            this.button2.UseVisualStyleBackColor = true;
+            this.SetebtnC.Location = new System.Drawing.Point(56, 52);
+            this.SetebtnC.Name = "SetebtnC";
+            this.SetebtnC.Size = new System.Drawing.Size(47, 47);
+            this.SetebtnC.TabIndex = 21;
+            this.SetebtnC.UseVisualStyleBackColor = true;
+            this.SetebtnC.Click += new System.EventHandler(this.SetebtnC_Click);
             // 
-            // button3
+            // SetebtnD
             // 
-            this.button3.Location = new System.Drawing.Point(61, 65);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(47, 47);
-            this.button3.TabIndex = 21;
-            this.button3.UseVisualStyleBackColor = true;
+            this.SetebtnD.Location = new System.Drawing.Point(61, 65);
+            this.SetebtnD.Name = "SetebtnD";
+            this.SetebtnD.Size = new System.Drawing.Size(47, 47);
+            this.SetebtnD.TabIndex = 21;
+            this.SetebtnD.UseVisualStyleBackColor = true;
+            this.SetebtnD.Click += new System.EventHandler(this.SetebtnD_Click);
             // 
             // Form7
             // 
@@ -268,9 +273,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnA;
+        private System.Windows.Forms.Button SetebtnD;
+        private System.Windows.Forms.Button SetebtnC;
+        private System.Windows.Forms.Button SetebtnB;
+        private System.Windows.Forms.Button SetebtnA;
     }
 }

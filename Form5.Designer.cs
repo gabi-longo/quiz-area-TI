@@ -42,7 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.btnA = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.CincobtnA = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -109,7 +109,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Controls.Add(this.button2);
+            this.panel1.Controls.Add(this.CincobtnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
@@ -136,6 +136,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox1
             // 
@@ -205,13 +206,14 @@
             this.button1.TabIndex = 5;
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // CincobtnA
             // 
-            this.button2.Location = new System.Drawing.Point(61, 60);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 47);
-            this.button2.TabIndex = 6;
-            this.button2.UseVisualStyleBackColor = true;
+            this.CincobtnA.Location = new System.Drawing.Point(61, 60);
+            this.CincobtnA.Name = "CincobtnA";
+            this.CincobtnA.Size = new System.Drawing.Size(47, 47);
+            this.CincobtnA.TabIndex = 6;
+            this.CincobtnA.UseVisualStyleBackColor = true;
+            this.CincobtnA.Click += new System.EventHandler(this.CincobtnA_Click);
             // 
             // button3
             // 
@@ -270,6 +272,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnA;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button CincobtnA;
     }
 }

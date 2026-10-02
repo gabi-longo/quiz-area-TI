@@ -71,11 +71,13 @@
             // 
             this.text_box1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(20)))), ((int)(((byte)(42)))));
             this.text_box1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.text_box1.Enabled = false;
             this.text_box1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 30F, System.Drawing.FontStyle.Bold);
             this.text_box1.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.text_box1.Location = new System.Drawing.Point(23, 45);
             this.text_box1.Multiline = true;
             this.text_box1.Name = "text_box1";
+            this.text_box1.ReadOnly = true;
             this.text_box1.Size = new System.Drawing.Size(766, 138);
             this.text_box1.TabIndex = 4;
             this.text_box1.Text = "Trabalho em grupo na escola!\r\n Qual papel você assume naturalmente?";

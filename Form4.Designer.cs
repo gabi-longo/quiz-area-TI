@@ -40,10 +40,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.TresbtnB = new System.Windows.Forms.Button();
-            this.TresbtnA = new System.Windows.Forms.Button();
-            this.TresbtnC = new System.Windows.Forms.Button();
-            this.TresbtnD = new System.Windows.Forms.Button();
+            this.QuatrobtnB = new System.Windows.Forms.Button();
+            this.QuatrobtnA = new System.Windows.Forms.Button();
+            this.QuatrobtnC = new System.Windows.Forms.Button();
+            this.QuatrobtnD = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -72,6 +72,7 @@
             this.text_box3.Location = new System.Drawing.Point(23, 45);
             this.text_box3.Multiline = true;
             this.text_box3.Name = "text_box3";
+            this.text_box3.ReadOnly = true;
             this.text_box3.Size = new System.Drawing.Size(740, 168);
             this.text_box3.TabIndex = 6;
             this.text_box3.Text = "Quando você precisa aprender algo\r\nnovo, qual jeito funciona melhor para você?";
@@ -79,7 +80,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel4.Controls.Add(this.TresbtnD);
+            this.panel4.Controls.Add(this.QuatrobtnD);
             this.panel4.Controls.Add(this.textBox3);
             this.panel4.Location = new System.Drawing.Point(697, 500);
             this.panel4.Name = "panel4";
@@ -102,7 +103,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel3.Controls.Add(this.TresbtnC);
+            this.panel3.Controls.Add(this.QuatrobtnC);
             this.panel3.Controls.Add(this.textBox4);
             this.panel3.Location = new System.Drawing.Point(88, 500);
             this.panel3.Name = "panel3";
@@ -126,7 +127,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel2.Controls.Add(this.TresbtnB);
+            this.panel2.Controls.Add(this.QuatrobtnB);
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Location = new System.Drawing.Point(697, 266);
             this.panel2.Name = "panel2";
@@ -149,7 +150,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.panel1.Controls.Add(this.TresbtnA);
+            this.panel1.Controls.Add(this.QuatrobtnA);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Location = new System.Drawing.Point(88, 266);
             this.panel1.Name = "panel1";
@@ -189,38 +190,43 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // TresbtnB
+            // QuatrobtnB
             // 
-            this.TresbtnB.Location = new System.Drawing.Point(59, 70);
-            this.TresbtnB.Name = "TresbtnB";
-            this.TresbtnB.Size = new System.Drawing.Size(47, 47);
-            this.TresbtnB.TabIndex = 19;
-            this.TresbtnB.UseVisualStyleBackColor = true;
+            this.QuatrobtnB.Location = new System.Drawing.Point(59, 70);
+            this.QuatrobtnB.Name = "QuatrobtnB";
+            this.QuatrobtnB.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnB.TabIndex = 19;
+            this.QuatrobtnB.UseVisualStyleBackColor = true;
+            this.QuatrobtnB.Click += new System.EventHandler(this.QuatrobtnB_Click);
             // 
-            // TresbtnA
+            // QuatrobtnA
             // 
-            this.TresbtnA.Location = new System.Drawing.Point(60, 70);
-            this.TresbtnA.Name = "TresbtnA";
-            this.TresbtnA.Size = new System.Drawing.Size(47, 47);
-            this.TresbtnA.TabIndex = 20;
-            this.TresbtnA.UseVisualStyleBackColor = true;
+            this.QuatrobtnA.Location = new System.Drawing.Point(60, 70);
+            this.QuatrobtnA.Name = "QuatrobtnA";
+            this.QuatrobtnA.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnA.TabIndex = 20;
+            this.QuatrobtnA.UseVisualStyleBackColor = true;
+            this.QuatrobtnA.Click += new System.EventHandler(this.QuatrobtnA_Click);
             // 
-            // TresbtnC
+            // QuatrobtnC
             // 
-            this.TresbtnC.Location = new System.Drawing.Point(60, 60);
-            this.TresbtnC.Name = "TresbtnC";
-            this.TresbtnC.Size = new System.Drawing.Size(47, 47);
-            this.TresbtnC.TabIndex = 21;
-            this.TresbtnC.UseVisualStyleBackColor = true;
+            this.QuatrobtnC.Location = new System.Drawing.Point(60, 60);
+            this.QuatrobtnC.Name = "QuatrobtnC";
+            this.QuatrobtnC.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnC.TabIndex = 21;
+            this.QuatrobtnC.UseVisualStyleBackColor = true;
+            this.QuatrobtnC.Click += new System.EventHandler(this.QuatrobtnC_Click);
             // 
-            // TresbtnD
+            // QuatrobtnD
             // 
-            this.TresbtnD.Location = new System.Drawing.Point(59, 60);
-            this.TresbtnD.Name = "TresbtnD";
-            this.TresbtnD.Size = new System.Drawing.Size(47, 47);
-            this.TresbtnD.TabIndex = 22;
-            this.TresbtnD.UseVisualStyleBackColor = true;
+            this.QuatrobtnD.Location = new System.Drawing.Point(59, 60);
+            this.QuatrobtnD.Name = "QuatrobtnD";
+            this.QuatrobtnD.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnD.TabIndex = 22;
+            this.QuatrobtnD.UseVisualStyleBackColor = true;
+            this.QuatrobtnD.Click += new System.EventHandler(this.QuatrobtnD_Click);
             // 
             // Form4
             // 
@@ -268,9 +274,9 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button TresbtnD;
-        private System.Windows.Forms.Button TresbtnC;
-        private System.Windows.Forms.Button TresbtnB;
-        private System.Windows.Forms.Button TresbtnA;
+        private System.Windows.Forms.Button QuatrobtnD;
+        private System.Windows.Forms.Button QuatrobtnC;
+        private System.Windows.Forms.Button QuatrobtnB;
+        private System.Windows.Forms.Button QuatrobtnA;
     }
 }
