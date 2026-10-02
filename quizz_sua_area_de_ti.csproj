@@ -201,5 +201,17 @@
   <ItemGroup>
     <None Include="Resources\26_livros_capelo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27_notebook_codigo_inferior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_personagem_menina_tablet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12_lampada_direita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31_alvo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

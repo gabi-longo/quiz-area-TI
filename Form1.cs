@@ -32,5 +32,10 @@ namespace quizz_sua_area_de_ti
             form2.Show();
             this.Hide();
         }
+
+        private void label_quizz_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

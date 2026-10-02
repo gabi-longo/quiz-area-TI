@@ -63,6 +63,26 @@ namespace quizz_sua_area_de_ti.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10_personagem_menina_tablet {
+            get {
+                object obj = ResourceManager.GetObject("10_personagem_menina_tablet", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _12_lampada_direita {
+            get {
+                object obj = ResourceManager.GetObject("12_lampada_direita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _14_personagem_pensativo {
             get {
                 object obj = ResourceManager.GetObject("14_personagem_pensativo", resourceCulture);
@@ -146,6 +166,26 @@ namespace quizz_sua_area_de_ti.Properties {
         internal static System.Drawing.Bitmap _26_livros_capelo {
             get {
                 object obj = ResourceManager.GetObject("26_livros_capelo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _27_notebook_codigo_inferior {
+            get {
+                object obj = ResourceManager.GetObject("27_notebook_codigo_inferior", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _31_alvo {
+            get {
+                object obj = ResourceManager.GetObject("31_alvo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -121,6 +121,9 @@
   <data name="16_icone_banco_dados" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16_icone_banco_dados.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="27_notebook_codigo_inferior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27_notebook_codigo_inferior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BARRA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BARRA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,11 +139,8 @@
   <data name="Imagem do ChatGPT 1 de out. de 2026, 01_42_15-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagem do ChatGPT 1 de out. de 2026, 01_42_15-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="18_icone_design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\18_icone_design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BARRA6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARRA6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="24_botao_proxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24_botao_proxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="20_icone_analytics" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\20_icone_analytics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +151,14 @@
   <data name="Adesivos 3D de tecnologia e quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adesivos 3D de tecnologia e quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="24_botao_proxima" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\24_botao_proxima.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="12_lampada_direita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12_lampada_direita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18_icone_design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18_icone_design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARRA6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARRA6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BARRA4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BARRA4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,11 +166,17 @@
   <data name="15_icone_codigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\15_icone_codigo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="10_personagem_menina_tablet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10_personagem_menina_tablet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="17_icone_seguranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\17_icone_seguranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BARRA5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BARRA5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26_livros_capelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26_livros_capelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="23_barra_progresso" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\23_barra_progresso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +184,7 @@
   <data name="Imagem do ChatGPT 1 de out. de 2026, 01_42_12-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagem do ChatGPT 1 de out. de 2026, 01_42_12-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="26_livros_capelo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\26_livros_capelo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="31_alvo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31_alvo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
