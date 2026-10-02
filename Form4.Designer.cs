@@ -31,19 +31,19 @@
             this.label_question3 = new System.Windows.Forms.Label();
             this.text_box3 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.QuatrobtnD = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.QuatrobtnC = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.QuatrobtnB = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.QuatrobtnA = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.QuatrobtnB = new System.Windows.Forms.Button();
-            this.QuatrobtnA = new System.Windows.Forms.Button();
-            this.QuatrobtnC = new System.Windows.Forms.Button();
-            this.QuatrobtnD = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -87,6 +87,15 @@
             this.panel4.Size = new System.Drawing.Size(546, 188);
             this.panel4.TabIndex = 12;
             // 
+            // QuatrobtnD
+            // 
+            this.QuatrobtnD.Location = new System.Drawing.Point(59, 60);
+            this.QuatrobtnD.Name = "QuatrobtnD";
+            this.QuatrobtnD.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnD.TabIndex = 22;
+            this.QuatrobtnD.UseVisualStyleBackColor = true;
+            this.QuatrobtnD.Click += new System.EventHandler(this.QuatrobtnD_Click);
+            // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
@@ -109,6 +118,15 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(546, 188);
             this.panel3.TabIndex = 11;
+            // 
+            // QuatrobtnC
+            // 
+            this.QuatrobtnC.Location = new System.Drawing.Point(60, 60);
+            this.QuatrobtnC.Name = "QuatrobtnC";
+            this.QuatrobtnC.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnC.TabIndex = 21;
+            this.QuatrobtnC.UseVisualStyleBackColor = true;
+            this.QuatrobtnC.Click += new System.EventHandler(this.QuatrobtnC_Click);
             // 
             // textBox4
             // 
@@ -134,6 +152,15 @@
             this.panel2.Size = new System.Drawing.Size(546, 188);
             this.panel2.TabIndex = 10;
             // 
+            // QuatrobtnB
+            // 
+            this.QuatrobtnB.Location = new System.Drawing.Point(59, 70);
+            this.QuatrobtnB.Name = "QuatrobtnB";
+            this.QuatrobtnB.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnB.TabIndex = 19;
+            this.QuatrobtnB.UseVisualStyleBackColor = true;
+            this.QuatrobtnB.Click += new System.EventHandler(this.QuatrobtnB_Click);
+            // 
             // textBox2
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
@@ -156,6 +183,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(546, 188);
             this.panel1.TabIndex = 9;
+            // 
+            // QuatrobtnA
+            // 
+            this.QuatrobtnA.Location = new System.Drawing.Point(60, 70);
+            this.QuatrobtnA.Name = "QuatrobtnA";
+            this.QuatrobtnA.Size = new System.Drawing.Size(47, 47);
+            this.QuatrobtnA.TabIndex = 20;
+            this.QuatrobtnA.UseVisualStyleBackColor = true;
+            this.QuatrobtnA.Click += new System.EventHandler(this.QuatrobtnA_Click);
             // 
             // textBox1
             // 
@@ -192,42 +228,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // QuatrobtnB
-            // 
-            this.QuatrobtnB.Location = new System.Drawing.Point(59, 70);
-            this.QuatrobtnB.Name = "QuatrobtnB";
-            this.QuatrobtnB.Size = new System.Drawing.Size(47, 47);
-            this.QuatrobtnB.TabIndex = 19;
-            this.QuatrobtnB.UseVisualStyleBackColor = true;
-            this.QuatrobtnB.Click += new System.EventHandler(this.QuatrobtnB_Click);
-            // 
-            // QuatrobtnA
-            // 
-            this.QuatrobtnA.Location = new System.Drawing.Point(60, 70);
-            this.QuatrobtnA.Name = "QuatrobtnA";
-            this.QuatrobtnA.Size = new System.Drawing.Size(47, 47);
-            this.QuatrobtnA.TabIndex = 20;
-            this.QuatrobtnA.UseVisualStyleBackColor = true;
-            this.QuatrobtnA.Click += new System.EventHandler(this.QuatrobtnA_Click);
-            // 
-            // QuatrobtnC
-            // 
-            this.QuatrobtnC.Location = new System.Drawing.Point(60, 60);
-            this.QuatrobtnC.Name = "QuatrobtnC";
-            this.QuatrobtnC.Size = new System.Drawing.Size(47, 47);
-            this.QuatrobtnC.TabIndex = 21;
-            this.QuatrobtnC.UseVisualStyleBackColor = true;
-            this.QuatrobtnC.Click += new System.EventHandler(this.QuatrobtnC_Click);
-            // 
-            // QuatrobtnD
-            // 
-            this.QuatrobtnD.Location = new System.Drawing.Point(59, 60);
-            this.QuatrobtnD.Name = "QuatrobtnD";
-            this.QuatrobtnD.Size = new System.Drawing.Size(47, 47);
-            this.QuatrobtnD.TabIndex = 22;
-            this.QuatrobtnD.UseVisualStyleBackColor = true;
-            this.QuatrobtnD.Click += new System.EventHandler(this.QuatrobtnD_Click);
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -245,6 +245,7 @@
             this.Location = new System.Drawing.Point(1256, 641);
             this.Name = "Form4";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Form4_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);

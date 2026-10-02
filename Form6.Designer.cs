@@ -31,19 +31,19 @@
             this.label_question5 = new System.Windows.Forms.Label();
             this.text_box5 = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.SeisbtnD = new System.Windows.Forms.Button();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.SeisbtnC = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.SeisbtnB = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.SeisbtnA = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.SeisbtnB = new System.Windows.Forms.Button();
-            this.SeisbtnD = new System.Windows.Forms.Button();
-            this.SeisbtnA = new System.Windows.Forms.Button();
-            this.SeisbtnC = new System.Windows.Forms.Button();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -86,6 +86,28 @@
             this.panel4.Size = new System.Drawing.Size(546, 188);
             this.panel4.TabIndex = 12;
             // 
+            // SeisbtnD
+            // 
+            this.SeisbtnD.Location = new System.Drawing.Point(64, 65);
+            this.SeisbtnD.Name = "SeisbtnD";
+            this.SeisbtnD.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnD.TabIndex = 22;
+            this.SeisbtnD.UseVisualStyleBackColor = true;
+            this.SeisbtnD.Click += new System.EventHandler(this.SeisbtnD_Click);
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox4.Location = new System.Drawing.Point(126, 60);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(357, 79);
+            this.textBox4.TabIndex = 20;
+            this.textBox4.Text = "D) Ter liderado uma equipe que transformou uma ideia em um grande negócio.";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
@@ -95,6 +117,28 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(546, 188);
             this.panel3.TabIndex = 11;
+            // 
+            // SeisbtnC
+            // 
+            this.SeisbtnC.Location = new System.Drawing.Point(56, 44);
+            this.SeisbtnC.Name = "SeisbtnC";
+            this.SeisbtnC.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnC.TabIndex = 23;
+            this.SeisbtnC.UseVisualStyleBackColor = true;
+            this.SeisbtnC.Click += new System.EventHandler(this.SeisbtnC_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox2.Location = new System.Drawing.Point(126, 44);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(357, 68);
+            this.textBox2.TabIndex = 19;
+            this.textBox2.Text = "C) Ter descoberto algo importante que ninguém tinha percebido antes.";
             // 
             // panel2
             // 
@@ -106,6 +150,28 @@
             this.panel2.Size = new System.Drawing.Size(546, 188);
             this.panel2.TabIndex = 10;
             // 
+            // SeisbtnB
+            // 
+            this.SeisbtnB.Location = new System.Drawing.Point(64, 60);
+            this.SeisbtnB.Name = "SeisbtnB";
+            this.SeisbtnB.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnB.TabIndex = 21;
+            this.SeisbtnB.UseVisualStyleBackColor = true;
+            this.SeisbtnB.Click += new System.EventHandler(this.SeisbtnB_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox3.Location = new System.Drawing.Point(126, 60);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(357, 68);
+            this.textBox3.TabIndex = 20;
+            this.textBox3.Text = "B) Saber que algo enorme que ajudei a montar funciona todo dia sem falhar.";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
@@ -115,6 +181,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(546, 188);
             this.panel1.TabIndex = 9;
+            // 
+            // SeisbtnA
+            // 
+            this.SeisbtnA.Location = new System.Drawing.Point(56, 60);
+            this.SeisbtnA.Name = "SeisbtnA";
+            this.SeisbtnA.Size = new System.Drawing.Size(47, 47);
+            this.SeisbtnA.TabIndex = 23;
+            this.SeisbtnA.UseVisualStyleBackColor = true;
+            this.SeisbtnA.Click += new System.EventHandler(this.SeisbtnA_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Location = new System.Drawing.Point(126, 60);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(357, 68);
+            this.textBox1.TabIndex = 18;
+            this.textBox1.Text = "A) Ter criado algo que milhões de pessoas usam.\r\n";
             // 
             // pictureBox2
             // 
@@ -138,94 +226,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(126, 60);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 68);
-            this.textBox1.TabIndex = 18;
-            this.textBox1.Text = "A) Ter criado algo que milhões de pessoas usam.\r\n";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox2.Location = new System.Drawing.Point(126, 44);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(357, 68);
-            this.textBox2.TabIndex = 19;
-            this.textBox2.Text = "C) Ter descoberto algo importante que ninguém tinha percebido antes.";
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(126, 60);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(357, 68);
-            this.textBox3.TabIndex = 20;
-            this.textBox3.Text = "B) Saber que algo enorme que ajudei a montar funciona todo dia sem falhar.";
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(40)))), ((int)(((byte)(78)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox4.Location = new System.Drawing.Point(126, 60);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(357, 79);
-            this.textBox4.TabIndex = 20;
-            this.textBox4.Text = "D) Ter liderado uma equipe que transformou uma ideia em um grande negócio.";
-            // 
-            // SeisbtnB
-            // 
-            this.SeisbtnB.Location = new System.Drawing.Point(64, 60);
-            this.SeisbtnB.Name = "SeisbtnB";
-            this.SeisbtnB.Size = new System.Drawing.Size(47, 47);
-            this.SeisbtnB.TabIndex = 21;
-            this.SeisbtnB.UseVisualStyleBackColor = true;
-            this.SeisbtnB.Click += new System.EventHandler(this.SeisbtnB_Click);
-            // 
-            // SeisbtnD
-            // 
-            this.SeisbtnD.Location = new System.Drawing.Point(64, 65);
-            this.SeisbtnD.Name = "SeisbtnD";
-            this.SeisbtnD.Size = new System.Drawing.Size(47, 47);
-            this.SeisbtnD.TabIndex = 22;
-            this.SeisbtnD.UseVisualStyleBackColor = true;
-            this.SeisbtnD.Click += new System.EventHandler(this.SeisbtnD_Click);
-            // 
-            // SeisbtnA
-            // 
-            this.SeisbtnA.Location = new System.Drawing.Point(56, 60);
-            this.SeisbtnA.Name = "SeisbtnA";
-            this.SeisbtnA.Size = new System.Drawing.Size(47, 47);
-            this.SeisbtnA.TabIndex = 23;
-            this.SeisbtnA.UseVisualStyleBackColor = true;
-            this.SeisbtnA.Click += new System.EventHandler(this.SeisbtnA_Click);
-            // 
-            // SeisbtnC
-            // 
-            this.SeisbtnC.Location = new System.Drawing.Point(56, 44);
-            this.SeisbtnC.Name = "SeisbtnC";
-            this.SeisbtnC.Size = new System.Drawing.Size(47, 47);
-            this.SeisbtnC.TabIndex = 23;
-            this.SeisbtnC.UseVisualStyleBackColor = true;
-            this.SeisbtnC.Click += new System.EventHandler(this.SeisbtnC_Click);
-            // 
             // Form6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,6 +242,7 @@
             this.Controls.Add(this.text_box5);
             this.Name = "Form6";
             this.Text = "Form6";
+            this.Load += new System.EventHandler(this.Form6_Load);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);

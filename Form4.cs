@@ -22,7 +22,6 @@ namespace quizz_sua_area_de_ti
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
 
-            QuatrobtnC.Focus();
         }
 
         private void SelecionarResposta(Button botao,char resposta)
@@ -88,6 +87,11 @@ namespace quizz_sua_area_de_ti
             Form5 proxima = new Form5();
             proxima.Show();
             this.Hide();
+        }
+
+        private void Form4_Load(object sender, EventArgs e)
+        {
+            QuatrobtnC.Focus();
         }
     }
 }

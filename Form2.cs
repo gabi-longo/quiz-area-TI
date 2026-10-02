@@ -22,8 +22,6 @@ namespace quizz_sua_area_de_ti
             WindowState = FormWindowState.Maximized;
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
-
-            btnA.Focus();
         }
 
         private void SelecionarResposta(
@@ -102,12 +100,12 @@ namespace quizz_sua_area_de_ti
             object sender,
             EventArgs e)
         {
-
+            btnA.Focus();
         }
 
         private void Form2_Load_1(object sender, EventArgs e)
         {
-
+            btnA.Focus();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

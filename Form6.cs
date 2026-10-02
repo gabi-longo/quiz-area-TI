@@ -20,7 +20,6 @@ namespace quizz_sua_area_de_ti
             WindowState = FormWindowState.Maximized;
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
-            SeisbtnB.Focus();
         }
 
         private void SelecionarResposta(Button botao,char resposta)
@@ -81,6 +80,11 @@ namespace quizz_sua_area_de_ti
         private void SeisbtnD_Click(object sender, EventArgs e)
         {
             SelecionarResposta(SeisbtnD, 'D');
+        }
+
+        private void Form6_Load(object sender, EventArgs e)
+        {
+            SeisbtnB.Focus();
         }
     }
 }

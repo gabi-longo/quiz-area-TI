@@ -20,8 +20,6 @@ namespace quizz_sua_area_de_ti
             WindowState = FormWindowState.Maximized;
             StartPosition = FormStartPosition.CenterScreen;
             AutoScaleMode = AutoScaleMode.Dpi;
-
-            CincobtnD.Focus();
         }
 
         private void SelecionarResposta(Button botao, char resposta)
@@ -82,6 +80,11 @@ namespace quizz_sua_area_de_ti
         private void CincobtnD_Click(object sender, EventArgs e)
         {
             SelecionarResposta(CincobtnD, 'D');
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            CincobtnD.Focus();
         }
     }
 }
