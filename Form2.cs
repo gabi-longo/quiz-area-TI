@@ -77,7 +77,7 @@ namespace quizz_sua_area_de_ti
                 return;
             }
 
-            // Salva resposta da PERGUNTA 1
+            // Salva resposta da PERGUNTA 
             Quiz.SalvarResposta(
                 1,
                 respostaSelecionada.Value);
@@ -99,13 +99,6 @@ namespace quizz_sua_area_de_ti
         private void Form2_Load(
             object sender,
             EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(
-            object sender,
-            PaintEventArgs e)
         {
 
         }

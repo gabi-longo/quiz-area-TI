@@ -68,6 +68,21 @@ namespace quizz_sua_area_de_ti
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+            if (respostaSelecionada == null)
+            {
+                MessageBox.Show(
+                    "Escolha uma alternativa antes de continuar.",
+                    "Quiz",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                return;
+            }
+
+            // Salva resposta da PERGUNTA 
+            Quiz.SalvarResposta(
+                3,
+                respostaSelecionada.Value);
+
             Form5 proxima = new Form5();
             proxima.Show();
             this.Hide();

@@ -27,6 +27,7 @@ namespace quizz_sua_area_de_ti
 
         private void btn_iniciar_Click(object sender, EventArgs e)
         {
+            Quiz.Reiniciar();
             Form2 form2 = new Form2();
             form2.Show();
             this.Hide();

@@ -52,7 +52,22 @@ namespace quizz_sua_area_de_ti
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Form1 proxima = new Form1(); #Criar form de resposta
+            if (respostaSelecionada == null)
+            {
+                MessageBox.Show(
+                    "Escolha uma alternativa antes de continuar.",
+                    "Quiz",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                return;
+            }
+
+            // Salva resposta da PERGUNTA 
+            Quiz.SalvarResposta(
+                6,
+                respostaSelecionada.Value);
+
+            Form8 proxima = new Form8();
             proxima.Show();
             this.Hide();
         }
